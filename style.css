@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(35, 121, 190);
+  
+}
+
+.container {
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    background: #fff;
+    width: 550px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: 2px solid black;
+    height: auto;
+}
+
+
+
+h1{
+    position: relative;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 2em;
+    border-bottom: 2px solid gray;
+}
+
+p {
+    padding: 15px;
+    position: relative;
+    left: -100px;
+}
+
+.btn-tarefa {
+    height: 25px;
+    width: 120px; 
+    border-radius: 15px;
+    outline: none;
+}
+
+li {
+    position: relative;
+    left: -200px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+li .apagar {
+    position: absolute;
+    right: -80px;
+    width: 50px;
+    border: none;
+    background: rgb(197, 192, 192);
+    cursor: pointer;
+    outline: none;
+}
+
+.apagar:active{
+    background: red;
+    color: #000;
+}
+
+.btn-tarefa:active{
+    background: green;
+}
+
+
+
+
+
+
+
+
